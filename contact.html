@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mark Patterson Portfolio</title>
+<link href="css/main.css" rel="stylesheet" type="text/css"/>
+</head>
+
+
+<body>
+
+<div id="wrapper">
+    
+    <header>
+        
+        <div id="logo">
+        <a href="index.html" ><img src="images/logo.png"/></a>
+        </div>
+        
+        <ul id="nav" class="topnav">
+        <li><a href="about.html" >about me</a></li>
+        <li><a href="contact.html" >contact</a></li>
+        <li><a href="work.html" >work</a></li>
+        <li><a href="blog/index.php" >blog</a></li>
+        </ul>
+        
+    </header>
+
+    <div id="maincontent"> 
+        
+        <div id="aboutTitle" >
+            <h1 >Contact Me</h1>
+        </div>
+        
+        <div id="contactform" class="folded">
+            <form action="contact.php" method="post" >
+                <ul>
+                    <li>
+                        <label for="fname">Name</label>
+                        <input id="fname" type="text" placeholder="What's your fullname?" required="required" name="fname">
+                    </li>
+                    
+
+                    <li>
+                        <label for="email">E-mail address</label>
+                        <input id="email" type="email" required="required" placeholder="What's your email address?" name="email">
+                    </li>
+                    
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea required="required" name="message" placeholder="Holla. I'll holla back. "></textarea>
+                    </li>
+                    
+                    <li>
+                        <input type="submit" name="submit" value="Submit">
+                    </li>
+                </ul>
+            </form>
+        </div>
+
+    <div id="aboutWork" >
+    <h1 >Check out my <span class="accent">latest work</span></h1>
+    </div>
+    
+    <div id="latestWork">
+    <a href="work.html" ><img src="images/mpSml.png" class="smImg"/></a>
+    <a href="work.html" ><img src="images/amsSml.png" class="smImg"/></a>
+    <a href="work.html" ><img src="images/ccSml.png" class="smImg"/></a>
+    </div>
+    
+    <footer>
+	</footer>
+    
+</div>	
+
+</body>
+</html>

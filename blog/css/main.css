@@ -1,0 +1,419 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 
+	CSS Reset
+	http://meyerweb.com/eric/tools/css/reset/ 
+   	v2.0 | 20110126
+	License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* 
+	Main Styles
+*/	
+	
+#wrapper{
+	width: 960px;
+	height: 1000px;
+	margin: 0 auto;
+	padding: 0 auto;
+	background-color: white;
+}
+
+body{
+	background-color: black;
+}
+
+header{
+	margin: 0 auto;
+	background-color: #e03b28;
+	width: 960px;
+	height: 55px;
+}
+
+#logo{
+	background-image: url(images/logo.png);
+	float: left;
+	width: 58px;
+	height: 37px;
+	margin: 8px 0 16px 85px;
+}
+
+#nav {
+	margin: 17px 30px 16px 0;
+	float: right;
+	
+}
+
+#nav li{
+	display:inline-block;
+}
+
+#nav a{
+	text-decoration:none;
+	color: #FFF;
+	margin-left: 30px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#maincontent{
+	clear: both;
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#hiMyNameIs{
+	width: 960px;
+	height: 250px;
+	
+}
+
+#sketch{
+	background-image:  url(images/sketch.png);
+	background-repeat: no-repeat;
+	float: left;
+	width: 220px;
+	height: 200px;
+	margin: 40px 0 0 50px;	
+}
+
+#intro{
+	float: right;
+	width: 638px;
+	height: 200px;
+	margin: 50px 0 0 0;
+}
+
+
+/*:::::::::::::::: Typography */
+
+h1 {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	letter-spacing: -3px;
+	line-height: 60px;
+	margin-bottom: 5px;
+}
+
+h2 {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	line-height: 36px;
+}
+
+h3 {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+p {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;	
+}
+
+h1.spacing{
+	letter-spacing: 13px;	
+}
+
+h1, h2, h3, p{
+	color: #292725;	
+}
+
+.accent{
+	color: #C6C0B4;
+}
+
+.accentgrey{
+	color: #B1B0BB;
+}
+
+/*::::::::::::::::: Classes*/
+
+
+
+.lrgTxt{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	line-height: 60px;
+	font-size: 48px;
+	font-weight: 100;
+	color: #333;	
+}
+
+.medTxt{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	line-height: 36px;
+	font-size: 24px;
+	font-weight: 100;
+	color: #333;
+	margin-bottom: 5px;
+}
+
+.regTxt{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	line-height: 24px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #333;	
+}
+
+.accent{
+	color: #e03b28;	
+}
+
+.ltrSpacing{
+	word-spacing: 2px;
+		
+}
+
+.ltrSpacing2{
+	word-spacing: -6px;
+}
+
+
+
+hr{
+	clear: both;
+	width: 900px;
+	height: 2px;	
+	margin: 0 auto;
+	border-width:0;
+	color: #333;;
+	background-color: #333;
+}
+
+#web, #photo{
+	float:left;
+	margin: 30px 30px 40px 30px;
+	width: 900px;
+}
+
+#photo{
+	margin: 0 30px 30px 30px;	
+}
+
+.smImg{
+	margin-top: 20px;
+	margin-right: 18px;
+	margin-left: 18px;
+	width: 260px;
+	height: 130px;
+}
+
+.lrgImg{
+	margin: 30px 0;
+	width: 900px;
+	float: left;
+}
+
+footer{
+	clear: both;
+	margin:0 auto;
+	width:960px;
+	height: 55px;
+	background-color: #e03b28;
+}
+
+/* about page */
+
+
+
+#aboutTitle{
+	float: left;
+	margin: 50px 0 15px 30px;
+	width: 900px;
+	border-bottom: thin #333 solid;
+}
+
+#aboutText{
+	width: 600px;
+	float: right;
+	margin: 15px 30px 0 0;
+}
+ 
+#aboutText > p{
+	margin-left: 20px;
+	padding-bottom: 15px;
+}
+
+#aboutWork{
+	float: left;
+	margin: 15px 0 15px 30px;
+	width: 900px;
+	border-bottom: thin #333 solid;
+}
+
+#latestWork{
+	clear: both;	
+	width: 900px;
+	height: 180px;
+	margin: 15px 0 15px 30px;
+		
+}
+
+#workTitle{
+	float: left;
+	margin: 50px 0 15px 30px;
+	width: 900px;
+	border-bottom: thin #333 solid;
+}
+
+#workTitle > h1{
+	float: right;	
+}
+
+#workContainer{
+	width: 960px;
+}
+
+#workGroup:not(:last-of-type){
+	float: left;
+}
+
+#workTxt{
+	width: 900px;
+	float: left;
+	margin: 15px 30px;
+	
+}
+
+#challenge > p{	
+	padding-bottom: 15px;	
+}
+
+#challenge{
+	width:420px;
+	float:left;
+	margin-right: 50px;
+}
+
+#solution{
+	width:420px;
+	float:left;
+	
+}
+
+#contactform {
+    background-color: #FFFFFF;
+    float: right;
+    height: 500px;
+    margin-right: 100px;
+    margin-top: 50px;
+    opacity: 0.8;
+    width: 450px;
+}
+
+#contactform h1 {
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 40px;
+    margin: 0 0 15px 30px;
+}
+#contactform p {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+#contactform input:required, textarea:required {
+    box-shadow: none;
+}
+#contactform input:not([type="submit"]), textarea {
+    border: 1px dashed #DBDBDB;
+    border-radius: 2px 2px 2px 2px;
+    color: #3F3F3F;
+    display: block;
+    font-family: Arial,Helvetica,sans-serifTahoma,Arial,Verdana sans-serif;
+    font-size: 14px;
+    outline: medium none;
+    padding: 4px 8px;
+    width: 370px;
+}
+#contactform input:active:not([type="submit"]), textarea:active, #contactform input:focus:not([type="submit"]), textarea:focus {
+    background: none repeat scroll 0 0 #F7F7F7;
+    border: 1px dashed #969696;
+    box-shadow: 2px 2px 7px #E8E8E8 inset;
+}
+#contactform input:not([type="submit"]) {
+    height: 20px;
+}
+textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+#contactform input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #FF0000;
+    font-style: italic;
+}
+#contactform input[type="submit"] {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    box-shadow: 1px 1px 1px #FFFFFF inset, 0 0 0 5px #EAEAEA;
+    color: #000000;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 15px;
+    padding: 4px 10px;
+    text-shadow: 0 1px 1px #E8E8E8;
+}
+#contactform input[type="submit"]:hover {
+    box-shadow: 0 1px 1px #FFFFFF inset, 0 0 0 5px #E0E0E0;
+    color: #686868;
+}
+#contactform input[type="submit"]:active, #contactform input[type="submit"]:focus {
+    box-shadow: 0 -1px 1px #FFFFFF inset, 0 0 0 5px #E0E0E0;
+    color: #515151;
+}
