@@ -11,7 +11,7 @@ I strongly recommend this tutorial. Great pace and he teaches abstraction really
 */
 
 include 'controller.php';
-require 'db.php';
+require 'functions.php';
 
 session_start();
 //print_r($_SESSION);
