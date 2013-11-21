@@ -10,7 +10,7 @@ http://www.youtube.com/watch?v=ksMFioOxFlk&list=PL20XMsrG9BmqmM8-ftQ44vI2dfZQKxC
 I strongly recommend this tutorial. Great pace and he teaches abstraction really well. 
 */
 
-include 'functions.php';
+include 'controler.php';
 require 'db.php';
 
 session_start();
