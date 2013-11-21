@@ -1,7 +1,7 @@
 <?
 /*
 
-This is the controler for single page view
+This is the model for single page view
 
 */
 
